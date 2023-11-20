@@ -1,0 +1,12 @@
+.ventana{
+    width: 300px;
+    position: absolute;
+    z-index: 1;
+    margin: 30px auto 50px auto;
+    box-shadow: 0 0 3px 0 rgb(48, 35, 148);
+    border-radius: 8px;
+    background-color: #1e1e1e;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    font-weight: 500;
+}
