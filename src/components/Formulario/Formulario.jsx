@@ -74,7 +74,7 @@ const Formulario = () => {
 
             </div>
 
-            {datosForm ? <DatosFormulario /> : ""}
+            {datosForm ? <DatosFormulario nombreR={nombreR} apellidoR={apellidoR} emailR={emailR} telefonoR={telefonoR} contraseniaR={contraseniaR} contraseniaRR={contraseniaRR} /> : ""}
 
         </>
     );

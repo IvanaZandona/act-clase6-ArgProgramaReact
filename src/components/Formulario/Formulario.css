@@ -1,12 +1,12 @@
 .containerForm{
-    width: 300px;
+    width: 350px;
     height: 630px;
     padding: 1%;
     box-shadow: 0 0 3px 0 rgb(85, 70, 195);
 }
 input{
     padding: 2%;
-    width: 250px;
+    width: 280px;
     border-radius: 8px;
     border: none;
     margin: 2px 0 16px 0;

@@ -1,12 +1,20 @@
 .ventana{
-    width: 300px;
-    position: absolute;
+    width: 350px;
+    position: relative;
     z-index: 1;
-    margin: 30px auto 50px auto;
+    margin: 10px auto 30px auto;
     box-shadow: 0 0 3px 0 rgb(48, 35, 148);
     border-radius: 8px;
     background-color: #1e1e1e;
-    text-transform: uppercase;
-    letter-spacing: 0.8px;
+    letter-spacing: 0.6px;
+    font-weight: 400;
+    text-align:left;
+    padding: 1%;
+}
+.ventana p{
+    margin: 6px 0 6px 20px;
+}
+h3{
     font-weight: 500;
+    letter-spacing: 0.3px
 }

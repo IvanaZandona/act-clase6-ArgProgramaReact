@@ -1,16 +1,18 @@
 import React from 'react';
 import "./DatosFormulario.css"
 
-const DatosFormulario = () => {
+const DatosFormulario = ({nombreR, apellidoR, emailR, telefonoR, contraseniaR, contraseniaRR}) => {
 
     return (
         <>
+        <h3>Revise sus datos enviados:</h3>
             <div className='ventana'>
-                <p>Enviado</p>
-                {/* La intención real de esto era mostrar los valores ingresados en los inputs del registro, 
-                si faltase completar uno o estuviese mal escrito, se vería, pero no supe resolverlo. 
-                Así que use la función solo para mostrar la confirmación del envío. Como no muestra dichos valores 
-                del formulario, faltaría perfeccionar que no aparezca "enviado" si el formulario esta vacío  */}
+                <p><strong>Nombre:</strong> {nombreR}</p>
+                <p><strong>Apellido:</strong> {apellidoR}</p>
+                <p><strong>Email:</strong> {emailR}</p>  
+                <p><strong>Telefono:</strong> {telefonoR}</p>
+                <p><strong>Contraseña:</strong> {contraseniaR}</p>
+                <p><strong>Repetición contraseña:</strong> {contraseniaRR} </p>
             </div><br />
         </>
     );
